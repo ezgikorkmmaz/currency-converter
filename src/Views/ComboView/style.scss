@@ -3,11 +3,13 @@
     table {
         border-collapse: collapse;
         width: 100%;
+        color: #DFDDDD;
       }
       td, th {
-        border: 1px solid #dddddd;
+        border: 1px solid #DFDDDD;
         text-align: left;
         padding: 8px;
+        font-weight: 500;
       }
       
       tr:nth-child(even) {
@@ -17,11 +19,11 @@
       .filter-btn{
         border-radius: 10px;
         padding: 5px;
-        border: 1px solid white;
+        border: 1px solid #DFDDDD;
         cursor: pointer;
         background: rgba(95,44,130,0.6);
         font-size: 14px;
-        color: white;
+        color: #DFDDDD;
         margin-bottom: 10px;
       }
 }
